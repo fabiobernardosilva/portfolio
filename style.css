@@ -35,6 +35,11 @@ header{
 	background-color: white;
 }
 
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
 .portrait{
 	grid-column: 1 / 5;
 
@@ -53,7 +58,7 @@ header{
 }
 
 main{
-	margin-top: 3.3125em;
+	margin-top: calc(2em + 30px);
 }
 
 .grid {
