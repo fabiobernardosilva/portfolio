@@ -35,11 +35,6 @@ header{
 	background-color: white;
 }
 
-footer{
-	position: fixed;
-	bottom: 0;
-}
-
 .portrait{
 	grid-column: 1 / 5;
 
