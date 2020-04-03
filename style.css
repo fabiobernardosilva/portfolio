@@ -121,10 +121,12 @@ h3 {
 }
 
 ::selection {
-  background: gold; /* WebKit/Blink Browsers */
+  background: none; /* WebKit/Blink Browsers */
+  color: gold;
 }
 ::-moz-selection {
-  background: gold; /* Gecko Browsers */
+  background:none; /* Gecko Browsers */
+  color:gold;
 }
 
 /*600-839*/
